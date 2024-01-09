@@ -13,7 +13,4 @@ export class CitySearchComponent {
 
   isHighlighted: boolean = false;
 
-
-   
-
 }

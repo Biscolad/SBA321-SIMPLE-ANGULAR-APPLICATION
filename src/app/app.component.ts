@@ -22,6 +22,7 @@ const routes: Routes = [
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
+
 export class AppComponent {
   title = 'SBA321-SIMPLE-ANGULAR-APPLICATION';
 }
