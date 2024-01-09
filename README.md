@@ -1,3 +1,29 @@
+# City Search Application
+
+## Description
+This is a simple Angular application for searching and displaying city information. The application allows users to search for cities, view details of a specific city, and see a list of cities.
+
+## Features
+- City Search: Enter a city name to search for it.
+- City Details: View detailed information about a selected city.
+- City List: Display a list of cities.
+
+## Technologies Used
+- Angular
+- HTML, CSS
+- Angular Router
+- Angular Forms (for city search)
+
+## Setup and Installation
+1. Clone the repository to your local machine:
+   ```bash
+   git clone https://github.com/your-username/city-search-app.git
+   cd city-search-app
+
+
+
+
+
 # SBA321SIMPLEANGULARAPPLICATION
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.0.9.
