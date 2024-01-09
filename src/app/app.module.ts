@@ -22,14 +22,14 @@ import { UnderlineDirective } from './underline.directive';
   declarations: [
     CitySearchComponent,
     CityDetailComponent,
-    UnderlineDirective
+    UnderlineDirective,
   ],
   
   imports: [
     BrowserModule,
     FormsModule,
     AppRoutingModule,
-    RouterModule
+    RouterModule,
   ],
 
   providers: [],
