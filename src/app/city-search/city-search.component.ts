@@ -9,9 +9,11 @@ import { Component } from '@angular/core';
 })
 
 export class CitySearchComponent {
-  cityName: string = '';
-  
-   // Example two-way data binding
-   selectedCity: string = '';
+  cities: string[] = ['New York', 'London', 'Tokyo'];
+
+  isHighlighted: boolean = false;
+
+
+   
 
 }
