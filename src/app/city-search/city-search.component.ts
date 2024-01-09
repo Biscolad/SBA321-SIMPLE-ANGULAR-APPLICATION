@@ -10,6 +10,7 @@ import { Component } from '@angular/core';
 
 export class CitySearchComponent {
   cityName: string = '';
+  
    // Example two-way data binding
    selectedCity: string = '';
 

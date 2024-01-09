@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
-// import { CommonModule } from '@angular/common';
 
-import { AppComponent } from './app.component';
+// import { CommonModule } from '@angular/common';
+// import { AppComponent } from './app.component';
 
 import { RouterModule, Routes } from '@angular/router';
 
@@ -14,10 +14,17 @@ const routes: Routes = [
   { path: '', redirectTo: '/search', pathMatch: 'full' },
 ];
 
+// @NgModule({
+//   declarations: [],
+//   imports: [
+//     CommonModule
+//   ]
+// })
+// export class AppModule { }
+
+
 @NgModule({
-  declarations: [],
-  imports: [
-    CommonModule
-  ]
+  imports: [RouterModule.forRoot(routes)],
+  exports: [RouterModule],
 })
-export class AppModule { }
+export class AppRoutingModule {}
